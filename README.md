@@ -27,7 +27,7 @@ The dashboard calculates and visualizes **Economic Order Quantity (EOQ)**, **Reo
 ---
 
 ## 📊 Dashboard Preview
-![Dashboard](images/Supply_Chain_Dashboard_FriendStyle.png)
+PowerBI_Dashboard.png
 
 ---
 ## 📈 Key Insights
