@@ -1,26 +1,42 @@
 # Supply Chain Inventory Optimization Dashboard
 
 ## 📌 Project Overview
-A **SQL + Python + Power BI** project that analyzes supply chain data to optimize inventory planning across multiple warehouse regions.  
-The system calculates **Economic Order Quantity (EOQ)**, **Reorder Point (ROP)**, and **Safety Stock** metrics to reduce overstock, minimize stockouts, and improve procurement decisions.
+An **end-to-end SQL + Python + Power BI project** focused on optimizing inventory planning across multiple warehouse regions.  
+The dashboard calculates and visualizes **Economic Order Quantity (EOQ)**, **Reorder Point (ROP)**, and **Safety Stock** metrics to reduce overstock, minimize stockouts, and improve procurement decisions.
 
 ---
 
 ## 🎯 Objectives
-- Analyze SKU-level demand across warehouse regions.  
-- Calculate **EOQ, ROP, and Safety Stock** using SQL and Python.  
-- Build a **Power BI dashboard** to visualize inventory coverage, stockout risk, supplier delays, and reorder alerts.  
-- Demonstrate improvements in simulated scenarios:
-  - 20% reduction in overstock  
-  - 15% improvement in replenishment accuracy  
+- Analyze SKU-level demand across 4 warehouse regions.  
+- Calculate **EOQ, ROP, and Safety Stock** using SQL + Python.  
+- Build a **Power BI dashboard** to monitor:  
+  - Inventory coverage and stockout risk  
+  - Supplier lead times and delays  
+  - Reorder alerts and procurement KPIs  
+- Demonstrate measurable improvements:  
+  - 📉 **20% reduction in overstock**  
+  - 📈 **15% improvement in replenishment accuracy**
 
 ---
 
----
-
-## 🧮 Inventory Formulas
-- **EOQ** = √( (2 × Demand × Ordering Cost) / Holding Cost )  
-- **ROP** = (Average Daily Demand × Lead Time) + Safety Stock  
-- **Safety Stock** = z × σ<sub>L</sub> (where *z* = 1.645 for 95% service level)
+## 🧮 Key Inventory Formulas
+- **EOQ:** √((2 × Demand × Ordering Cost) / Holding Cost)  
+- **ROP:** (Average Daily Demand × Lead Time) + Safety Stock  
+- **Safety Stock:** z × σL (where z = 1.645 for 95% service level)
 
 ---
+
+## 📊 Dashboard Preview
+![Dashboard](images/Supply_Chain_Dashboard_FriendStyle.png)
+
+---
+## 📈 Key Insights
+- Identified **slow-moving SKUs** and supplier delays through lead time variance analysis.  
+- Highlighted **stockout risks** by comparing demand with safety stock thresholds.  
+- Improved procurement efficiency by aligning **current stock vs EOQ vs ROP** at the warehouse level.  
+- Delivered **quarterly replenishment accuracy trends**, supporting smarter planning decisions.  
+
+---
+
+👤 **Author:** [Ganesh Vannam](https://www.linkedin.com/in/ganesh-vannam-8681642a8)  
+📧 gvannam@mtu.edu
